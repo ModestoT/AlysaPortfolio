@@ -2,16 +2,28 @@ import "./NavBar.css";
 function NavBar() {
   return (
     <div className="nav-bar">
-      <div>
+      <a href="/" className="home-btn">
         <h1>Alysa Punjwani</h1>
-      </div>
+      </a>
       <div className="flex">
-        <h4>EXPERIENCE</h4>
-        <h4>EDUCATION</h4>
-        <h4>CERTIFICATIONS</h4>
-        <h4>SOFTWARE</h4>
-        <h4>CONTACT</h4>
-        <h4>PORTFOLIO</h4>
+        <a href="/" className="nav-bar-item">
+          <p>EXPERIENCE</p>
+        </a>
+        <a href="/" className="nav-bar-item">
+          <p>EDUCATION</p>
+        </a>
+        <a href="/" className="nav-bar-item">
+          <p>CERTIFICATIONS</p>
+        </a>
+        <a href="/" className="nav-bar-item">
+          <p>SOFTWARE</p>
+        </a>
+        <a href="/" className="nav-bar-item">
+          <p>CONTACT</p>
+        </a>
+        <a href="/" className="nav-bar-item">
+          <p>PORTFOLIO</p>
+        </a>
       </div>
     </div>
   );

@@ -8,19 +8,32 @@ function App() {
   return (
     <>
       <NavBar />
-      <div style={{ height: "90%", overflow: "auto" }}>
-        <h1>Vite + React</h1>
-        <div className="card">
-          <button onClick={() => setCount((count) => count + 1)}>
-            count is {count}
-          </button>
-          <p>
-            Edit <code>src/App.tsx</code> and save to test HMR
-          </p>
+      <div style={{ height: "91%", overflow: "auto" }}>
+        <div className="main-content">
+          <div className="card">
+            <img src="./headshot try 2.png" />
+            <div
+              style={{ display: "flex", flexDirection: "column", gap: "1rem" }}
+            >
+              <div style={{ display: "flex", flexDirection: "column" }}>
+                <span>Alysa Punjwani</span>
+                <span>Learning & Development Professional</span>
+              </div>
+              <div style={{ display: "flex", flexDirection: "column" }}>
+                <span>Phone:</span>
+                <span>832-692-7400</span>
+              </div>
+              <div style={{ display: "flex", flexDirection: "column" }}>
+                <span>Email:</span>
+                <span>alysa.punjwani17@gmail.com</span>
+              </div>
+              <div style={{ display: "flex", flexDirection: "column" }}>
+                <span>Address:</span>
+                <span>Chicago, IL</span>
+              </div>
+            </div>
+          </div>
         </div>
-        <p className="read-the-docs">
-          Click on the Vite and React logos to learn more
-        </p>
       </div>
     </>
   );
